@@ -1,6 +1,6 @@
 ---
 description: Apply general testing standards for clarity and consistency when writing any test. Covers organization, naming, and core principles like AAA.
-globs: apps/**/*.spec.*, apps/**/*.test.*
+globs: **/*.spec.*, **/*.test.*
 alwaysApply: false
 ---
 
@@ -14,3 +14,6 @@ Core Principles:
 - Prefer action-based user interaction tests.
 - Use descriptive test names.
 - Use existing types for tests.
+- Avoid code repetition in tests.
+- Keep tests independent and focused.
+- Only one assertion by it

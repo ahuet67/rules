@@ -1,0 +1,11 @@
+---
+description: 
+globs: *_spec.rb
+alwaysApply: false
+---
+
+Organization:
+- Always define a named `subject` that initializes the class or object under test.
+- Use `let` statements to avoid repeated calls to the method under test and parameters that may change during testing.
+- Prefer clarity and readability over excessive factorization.
+- Only one expect by it
