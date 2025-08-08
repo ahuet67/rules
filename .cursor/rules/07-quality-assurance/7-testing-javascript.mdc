@@ -1,0 +1,11 @@
+---
+description: 
+globs: *.test.ts
+alwaysApply: false
+---
+
+- Only one expect by it function
+- when there are mocks, always declare outside the scope jest.mock with the path only
+- when there are mocks, always use resetAllMocks in the afterEach
+- In the beforeEach, attach the function to mock to a jest.fn named function
+- make sure there is the few lines as possible for each "it"

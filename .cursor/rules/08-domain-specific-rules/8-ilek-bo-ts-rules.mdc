@@ -1,0 +1,7 @@
+---
+description: 
+globs: app/javascript/controllers/**
+alwaysApply: false
+---
+- place stimulus target elements declarations at the end of the file with one blank line between them
+- use stimulus target feature to target elements of the DOM
